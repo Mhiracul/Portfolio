@@ -11,7 +11,7 @@ import Work from "./components/Work";
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen w-full">
+    <div className="h-screen w-full">
       <Sidebar />
       <Banner />
       <About />

@@ -3,6 +3,8 @@ import { BsEye } from "react-icons/bs";
 import { work1 } from "../assets";
 import { work2 } from "../assets";
 import { work3 } from "../assets";
+import { work4 } from "../assets";
+import { work5 } from "../assets";
 
 const Work = () => {
   return (
@@ -28,7 +30,7 @@ const Work = () => {
               <div className="absolute inset-0 bg-black opacity-0 hover:opacity-80 rounded-lg  transition duration-300">
                 <div className="flex flex-col items-center justify-center h-full">
                   <p className="text-white text-lg font-bold">MIRAC</p>
-                  <p className="text-[#5100EE] text-lg font-bold">E-COMMERCE</p>
+                  <p className="text-[#FFF] text-lg font-bold">E-COMMERCE</p>
                   <a href="https://github.com/Mhiracul/Shopping-cart">
                     <BsEye size={30} />
                   </a>
@@ -54,8 +56,33 @@ const Work = () => {
               <div className="absolute inset-0 bg-black opacity-0 hover:opacity-80 rounded-lg  transition duration-300">
                 <div className="flex flex-col items-center justify-center h-full">
                   <p className="text-white text-lg font-bold">TRANSITFLOW</p>
-                  <p className="text-[#5100EE] text-lg font-bold">LOGISTICS</p>
+                  <p className="text-[#FFF] text-lg font-bold">LOGISTICS</p>
                   <a href="https://github.com/Mhiracul/TRANS">
+                    <BsEye size={30} />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="relative rounded-lg border border-[#5100EE] bg-white px-6 py-8">
+              <img src={work4} class="w-full" alt="" className="rounded-lg" />
+              <div className="absolute inset-0 bg-black opacity-0 hover:opacity-80 rounded-lg  transition duration-300">
+                <div className="flex flex-col items-center justify-center h-full">
+                  <p className="text-white text-lg font-bold">FINFLOW</p>
+                  <p className="text-[#FFF] text-lg font-bold">BANKING</p>
+                  <a href="https://finflow.netlify.app/">
+                    <BsEye size={30} />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="relative rounded-lg border border-[#5100EE] bg-white px-6 py-8">
+              <img src={work5} class="w-full" alt="" className="rounded-lg" />
+              <div className="absolute inset-0 bg-black opacity-0 hover:opacity-80 rounded-lg  transition duration-300">
+                <div className="flex flex-col items-center justify-center h-full">
+                  <p className="text-white text-lg font-bold">PENDORA</p>
+                  <p className="text-[#FFF] text-lg font-bold">INVESTMENT</p>
+                  <a href="https://pendoraventures.com">
                     <BsEye size={30} />
                   </a>
                 </div>

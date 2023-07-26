@@ -4,11 +4,7 @@ import "./progress.css";
 
 const Resume = () => {
   return (
-    <div
-      id="resume"
-      className="bg-[#191C1F] py-16 md:px-20 px-6"
-      style={{ width: "100%", float: "right" }}
-    >
+    <div id="resume" className="bg-[#191C1F] py-16 md:px-20 px-6 w-full">
       <div>
         <div className="relative flex-col">
           <h1 className=" text-5xl md:text-9xl font-bold text-[#212427]">
@@ -21,112 +17,136 @@ const Resume = () => {
           </h2>
         </div>
         <div className="grid md:grid-cols-2 grid-cols-1  gap-10 py-20">
-          <div className="items-start lg:text-left text-white font-bold text-2xl mt-4 text-left"></div>
-          <div className="items-start lg:text-left text-white font-bold text-2xl mt-4 text-left">
-            <h1>My Experience</h1>
+          <div>
+            <div className="bg-[#0E1013] rounded-lg mb-10 items-start lg:text-left px-6 py-8 ">
+              <div className="container text-left">
+                <p className="bg-[#5100EE] text-white rounded-lg w-28 text-sm px-4">
+                  2020-2023{" "}
+                </p>
+                <h1 className="text-white font-bold md:text-2xl text-xl mt-2">
+                  Computer Science
+                </h1>
+                <h2 className="text-xl text-[#5100EE] mt-2">
+                  National Open University of Nigeria
+                </h2>
+                <p className="text-[#FFFFFF80] mt-2 md:text-xs text-xs">
+                  I am pursuing a Bachelor's degree in Computer Science from the
+                  National Open University of Nigeria. My coursework includes a
+                  wide range of topics such as programming, data structures,
+                  algorithms, and software engineering. I am expected to
+                  graduate in 2023 with a Second Class Upper (2.1) degree.
+                </p>
+              </div>
+            </div>
+            <div className="bg-[#0E1013] mb-10  rounded-lg items-start lg:text-left px-6 py-8 flex lg:flex-row flex-col">
+              <div className="container text-left">
+                <p className="bg-[#5100EE] text-center text-white rounded-lg w-28 text-sm px-4">
+                  2022
+                </p>
+                <h1 className="text-white font-bold md:text-2xl text-xl mt-2">
+                  Leadership and Management
+                </h1>
+                <h2 className="text-xl text-[#5100EE] mt-2">
+                  Great Learning Academy
+                </h2>
+                <p className="text-[#FFFFFF80] mt-2 md:text-xs text-xs">
+                  I completed a course on Leadership and Management from Great
+                  Learning Academy. The course covered various aspects of
+                  leadership skills, team management, and effective
+                  communication. This learning opportunity provided valuable
+                  insights into effective leadership practices.
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-[#0E1013]   rounded-lg items-start lg:text-left px-6 py-8">
+              <div className="container text-left">
+                <p className="bg-[#5100EE] text-center text-white rounded-lg w-28 text-sm px-4">
+                  2021
+                </p>
+                <h1 className="text-white font-bold md:text-2xl text-xl mt-2">
+                  Introduction to PHP
+                </h1>
+                <h2 className="text-xl text-[#5100EE] mt-2">Simplilearn</h2>
+                <p className="text-[#FFFFFF80] mt-2 md:text-xs text-xs">
+                  I completed an introductory course on PHP from Simplilearn.
+                  The course provided a solid foundation in PHP programming,
+                  covering topics such as syntax, data types, control
+                  structures, and functions. This course helped me expand my
+                  knowledge of backend web development.
+                </p>
+              </div>
+            </div>
           </div>
 
-          <div className="bg-[#0E1013] rounded-lg items-start lg:text-left px-6 py-8 ">
-            <div className="container text-left">
-              <p className="bg-[#5100EE] text-white rounded-lg w-28 text-sm px-4">
-                2000-2004
-              </p>
-              <h1 className="text-white font-bold md:text-2xl text-xl mt-4">
-                Computer Science
-              </h1>
-              <h2 className="text-xl text-[#5100EE] mt-4">
-                International University
-              </h2>
-              <p className="text-[#FFFFFF80] mt-4 md:text-xl text-sm">
-                Lisque persius interesset his et, in quot quidam persequeris
-                vim, ad mea essent po ssim iriure.
-              </p>
+          <div>
+            <div className="bg-[#0E1013] mb-10 rounded-lg items-start lg:text-left px-6 py-8">
+              <div className="container text-left">
+                <p className="bg-[#5100EE] text-white rounded-lg w-28 text-sm px-4">
+                  2022-2022
+                </p>
+                <h1 className="text-white font-bold md:text-2xl text-xl mt-4">
+                  E-commerce Clothing Store
+                </h1>
+                <h2 className="text-xl text-[#5100EE] mt-2">
+                  Personal Project
+                </h2>
+                <p className="text-[#FFFFFF80] mt-2 md:text-xs text-xs">
+                  I independently developed an e-commerce shopping website for
+                  clothing and accessories. The website was built using React
+                  for the frontend and integrated with Paystack for secure
+                  payment processing. I designed and implemented product listing
+                  pages, shopping cart functionality, and user authentication.
+                  This project improved my skills in frontend development,
+                  payment integration, and managing an end-to-end web
+                  application.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="bg-[#0E1013] rounded-lg items-start lg:text-left px-6 py-8 flex lg:flex-row flex-col">
-            <div className="container text-left">
-              <p className="bg-[#5100EE] text-white rounded-lg w-28 text-sm px-4">
-                2000-2004
-              </p>
-              <h1 className="text-white font-bold md:text-2xl text-xl mt-4">
-                Computer Science
-              </h1>
-              <h2 className="text-xl text-[#5100EE] mt-4">
-                International University
-              </h2>
-              <p className="text-[#FFFFFF80] mt-4 md:text-xl text-sm">
-                Lisque persius interesset his et, in quot quidam persequeris
-                vim, ad mea essent po ssim iriure.
-              </p>
+            <div className="bg-[#0E1013] mb-10  rounded-lg items-start lg:text-left px-6 py-8">
+              <div className="container text-left">
+                <p className="bg-[#5100EE] text-center text-white rounded-lg w-28 text-sm px-4">
+                  2022
+                </p>
+                <h1 className="text-white font-bold md:text-2xl text-xl mt-4">
+                  Frontend Developer Intern
+                </h1>
+                <h2 className="text-xl text-[#5100EE] mt-2">Nupat Teams</h2>
+                <p className="text-[#FFFFFF80] mt-2 md:text-xs text-sm">
+                  During my internship at Nupat Teams, I had the opportunity to
+                  work on a challenging project to create a logistics website
+                  using React, Vite, and Tailwind CSS. I was responsible for
+                  implementing various frontend features, optimizing website
+                  performance, and ensuring a seamless user experience. This
+                  experience allowed me to deepen my understanding of modern
+                  frontend technologies and best practices in web development.
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div className="bg-[#0E1013] rounded-lg items-start lg:text-left px-6 py-8">
-            <div className="container text-left">
-              <p className="bg-[#5100EE] text-white rounded-lg w-28 text-sm px-4">
-                2000-2004
-              </p>
-              <h1 className="text-white font-bold md:text-2xl text-xl mt-4">
-                Computer Science
-              </h1>
-              <h2 className="text-xl text-[#5100EE] mt-4">
-                International University
-              </h2>
-              <p className="text-[#FFFFFF80] mt-4 md:text-xl text-sm">
-                Lisque persius interesset his et, in quot quidam persequeris
-                vim, ad mea essent po ssim iriure.
-              </p>
-            </div>
-          </div>
-          <div className="bg-[#0E1013] rounded-lg items-start lg:text-left px-6 py-8">
-            <div className="container text-left">
-              <p className="bg-[#5100EE] text-white rounded-lg w-28 text-sm px-4">
-                2000-2004
-              </p>
-              <h1 className="text-white font-bold md:text-2xl text-xl mt-4">
-                Computer Science
-              </h1>
-              <h2 className="text-xl text-[#5100EE] mt-4">
-                International University
-              </h2>
-              <p className="text-[#FFFFFF80] mt-4 md:text-xl text-sm">
-                Lisque persius interesset his et, in quot quidam persequeris
-                vim, ad mea essent po ssim iriure.
-              </p>
-            </div>
-          </div>
-          <div className="bg-[#0E1013] rounded-lg items-start lg:text-left px-6 py-8">
-            <div className="container text-left">
-              <p className="bg-[#5100EE] text-white rounded-lg w-28 text-sm px-4">
-                2000-2004
-              </p>
-              <h1 className="text-white font-bold md:text-2xl text-xl mt-4">
-                Computer Science
-              </h1>
-              <h2 className="text-xl text-[#5100EE] mt-4">
-                International University
-              </h2>
-              <p className="text-[#FFFFFF80] mt-4 md:text-xl text-sm">
-                Lisque persius interesset his et, in quot quidam persequeris
-                vim, ad mea essent po ssim iriure.
-              </p>
-            </div>
-          </div>
-          <div className="bg-[#0E1013] rounded-lg items-start lg:text-left px-6 py-8">
-            <div className="container text-left">
-              <p className="bg-[#5100EE] text-white rounded-lg w-28 text-sm px-4">
-                2000-2004
-              </p>
-              <h1 className="text-white font-bold md:text-2xl text-xl mt-4">
-                Computer Science
-              </h1>
-              <h2 className="md:text-xl text-sm text-[#5100EE] mt-4">
-                International University
-              </h2>
-              <p className="text-[#FFFFFF80] mt-4 md:text-xl text-sm">
-                Lisque persius interesset his et, in quot quidam persequeris
-                vim, ad mea essent po ssim iriure.
-              </p>
+            <div className="bg-[#0E1013]  rounded-lg items-start lg:text-left px-6 py-8">
+              <div className="container text-left">
+                <p className="bg-[#5100EE] text-center text-white rounded-lg w-28 text-sm px-4">
+                  2023
+                </p>
+                <h1 className="text-white font-bold md:text-2xl text-xl mt-2">
+                  QA Engineer - Investment Site
+                </h1>
+                <h2 className="md:text-xl text-sm text-[#5100EE] mt-2">
+                  Client Project
+                </h2>
+                <p className="text-[#FFFFFF80] mt-2 md:text-xs text-xs">
+                  As a QA Engineer, I collaborated with a client to test and
+                  ensure the quality of their investment website. I performed
+                  comprehensive testing of features such as user registration,
+                  deposit, withdrawal, referral system, and user dashboard
+                  functionality. I identified and reported bugs and worked
+                  closely with developers to ensure their timely resolution.
+                  This experience enhanced my skills in manual testing, bug
+                  tracking, and working in a team environment to deliver a
+                  high-quality product.
+                </p>
+              </div>
             </div>
           </div>
         </div>

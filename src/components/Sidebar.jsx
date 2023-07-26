@@ -23,7 +23,7 @@ const Navbar = () => {
         <img
           src={mine}
           alt="Okeke Miracle"
-          className="rounded-full w-12 h-12 mr-4"
+          className="rounded-full w-12 h-12 mr-4 "
         />
       </div>
 

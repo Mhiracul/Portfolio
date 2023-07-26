@@ -10,11 +10,7 @@ import {
 
 const Contact = () => {
   return (
-    <div
-      id="contact"
-      className="bg-[#272C31] py-16 md:px-20 px-6 "
-      style={{ width: "100%", float: "right" }}
-    >
+    <div id="contact" className="bg-[#272C31] py-16 md:px-20 px-6 w-full">
       <div>
         <div className="relative flex-col ">
           <h1 className="md:text-9xl text-5xl font-bold text-[#212427]">
@@ -28,28 +24,30 @@ const Contact = () => {
         </div>
       </div>
       <div>
-        <div className="grid md:grid-cols-1 grid-cols-1 py-16 lg:grid-cols-2">
-          <div className=" text-[#DCDCDC] flex flex-col items-center justify-center">
+        <div className="grid md:grid-cols-1 grid-cols-1 py-16 lg:grid-cols-2 w-full">
+          <div className="text-[#DCDCDC] mx-auto md:mx-0">
             <div className="xl:text-left sm:text-center md:text-left text-center">
               <h1 className="text-white font-bold text-2xl ">ADDRESS</h1>
             </div>
-            <p className="w-40 mt-4 xl:text-left md:text-center">
-              No 40, Omolara-Olusi Str, Hopeville Estate, Sangotedo-Ajah,Lagos
-              State
+            <p className=" mt-4 xl:text-left md:text-center">
+              No 40, Omolara-Olusi Str, Hopeville Estate, <br />{" "}
+              Sangotedo-Ajah,Lagos State
             </p>
-            <div className="flex gap-2 mt-4 xl:text-left md:text-center ">
-              <FaPhone color="#5100EE" size={14} />
-              <p className="text-left">+234(9066306174)</p>
+            <div className=" flex flex-col md:justify-start sm:justify-center">
+              <div className="flex gap-2 mt-4 xl:text-left md:justify-start sm:justify-center ">
+                <FaPhone color="#5100EE" size={14} />
+                <p className="text-left">+234(9066306174)</p>
+              </div>
+              <div className="flex gap-2 mt-3  xl:text-left md:justify-start sm:justify-center">
+                <FaMailBulk color="#5100EE" size={14} />
+                <p className="text-left">mokeke185@gmail.com</p>
+              </div>
             </div>
-            <div className="flex gap-2 mt-3 ml-6 xl:text-left md:text-center">
-              <FaMailBulk color="#5100EE" size={14} />
-              <p className="text-left">mokeke185@gmail.com</p>
-            </div>
-            <div className="mt-4">
-              <h1 className="text-white font-bold text-xl xl:text-left md:text-center">
-                FOLLOW ME
-              </h1>
-              <div className="flex gap-8 mt-4 xl:text-left md:text-center">
+            <div className="mt-4 w-full">
+              <div className="lg:text-left sm:text-center md:text-left text-center">
+                <h1 className="text-white font-bold text-xl  ">FOLLOW ME</h1>
+              </div>
+              <div className="w-full flex gap-8 mt-4 xl:text-left md:justify-start sm:justify-center">
                 <a href="https://github.com/Mhiracul">
                   {" "}
                   <FaGithub />

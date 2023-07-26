@@ -6,12 +6,7 @@ const About = ({ isSidebarExpanded }) => {
 
   return (
     <section id="about" className={sectionClass}>
-      <div
-        className="bg-[#191C1F] py-16 md:px-20 px-6 "
-        style={{
-          float: "right",
-        }}
-      >
+      <div className="bg-[#191C1F] py-16 md:px-20 px-6 ">
         <div className="relative flex-col row-auto">
           <h1 className="text-4xl md:text-9xl font-bold text-[#212427] text-center">
             ABOUT ME
@@ -36,18 +31,18 @@ const About = ({ isSidebarExpanded }) => {
               className="text-[#FFFFFF80] leading-6 mt-4"
               style={{ fontSize: "15px" }}
             >
-              I help you build brand for your business at an affordable price.
-              Thousands of clients have procured exceptional results while
-              working with our dedicated team. when an unknown printer took a
-              galley of type and scrambled it to make a type specimen book.
+              Welcome to my world of web development! I'm Miracle Okeke, a
+              passionate and skilled Web Developer. My mission is to help you
+              build a strong and impactful online presence for your business
+              without breaking the bank.
             </p>
             <p
               className="text-[#FFFFFF80] mt-4 leading-6"
               style={{ fontSize: "15px" }}
             >
-              Delivering work within time and budget which meets client’s
-              requirements is our moto. Lorem Ipsum has been the industry's
-              standard dummy text ever when an unknown printer took a galley.
+              Our commitment to excellence is unwavering. We understand that
+              your time and budget are valuable, which is why we always strive
+              to deliver projects that meet your specific requirements promptly.
             </p>
           </div>
 
