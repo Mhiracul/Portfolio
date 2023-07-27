@@ -31,7 +31,10 @@ const CardSlider = () => {
   };
 
   return (
-    <div id="testimonial" className="bg-[#191C1F] py-16 md:px-20 px-6 w-full ">
+    <div
+      id="testimonial"
+      className="bg-[#191C1F] py-16 md:px-20 px-6 w-full h-full"
+    >
       <div>
         <div className="relative flex-col">
           <h1 className="md:text-9xl text-4xl font-bold text-[#212427]">

@@ -18,7 +18,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[50px] flex justify-between bg-[#0E1013]  items-center px-8  text-gray-300">
+    <div className="fixed w-full h-[50px] z-[99999] flex justify-between bg-[#0E1013]  items-center px-8  text-gray-300">
       <div className="hidden md:block">
         <img
           src={mine}

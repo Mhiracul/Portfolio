@@ -8,10 +8,7 @@ import { work5 } from "../assets";
 
 const Work = () => {
   return (
-    <div
-      className="bg-[#272C31] py-16 md:px-20 px-6 "
-      style={{ width: "100%", float: "right" }}
-    >
+    <div className="bg-[#272C31] py-16 md:px-20 px-6 h-full w-full">
       <div>
         <div className="relative flex-col">
           <h1 className="md:text-9xl text-5xl font-bold text-[#212427]">
