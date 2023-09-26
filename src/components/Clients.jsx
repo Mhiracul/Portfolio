@@ -31,12 +31,9 @@ const CardSlider = () => {
   };
 
   return (
-    <div
-      id="testimonial"
-      className="bg-[#191C1F] py-16 md:px-20 px-6 w-full h-full"
-    >
+    <div id="testimonial" className="bg-[#191C1F] py-16 md:px-20 px-6 w-full ">
       <div>
-        <div className="relative flex-col">
+        <div className="relative flex-col text-center">
           <h1 className="md:text-9xl text-4xl font-bold text-[#212427]">
             TESTIMONIAL
           </h1>
@@ -56,11 +53,11 @@ const CardSlider = () => {
                   <img
                     src={cards.image}
                     alt=""
-                    className="w-12 h-12 rounded-full mr-4"
+                    className="w-14 h-14 object-cover  rounded-full mr-4"
                   />
                   <div>
                     <h3 className="font-bold text-white">{cards.name}</h3>
-                    <p className="text-[#758285]">Senior Android Engineer</p>
+                    <p className="text-[#758285]">{cards.title}</p>
                   </div>
                 </div>
                 <div>

@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <div id="resume" className="bg-[#191C1F] py-16 md:px-20 px-6 w-full">
       <div>
-        <div className="relative flex-col">
+        <div className="relative flex-col text-center">
           <h1 className=" text-5xl md:text-9xl font-bold text-[#212427]">
             EXPERIENCE
           </h1>
