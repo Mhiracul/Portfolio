@@ -12,7 +12,7 @@ const Services = () => {
     <div id="services" className="bg-[#272C31] py-16 md:px-20 px-6 w-full">
       <div>
         <div className="relative flex-col text-center">
-          <h1 className="lg:text-9xl md:text-8xl text-2xl font-bold text-[#303439]">
+          <h1 className="lg:text-9xl md:text-8xl text-4xl font-bold text-[#303439]">
             SERVICES
           </h1>
           <h2 className="absolute inset-0 flex items-center justify-center  md:text-4xl text-sm font-bold  text-white text-center">

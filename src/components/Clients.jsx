@@ -38,7 +38,7 @@ const CardSlider = () => {
             data-aos-duration="800"
             className="relative flex-col text-center"
           >
-            <h1 className="md:text-8xl lg:text-9xl text-2xl font-bold text-[#212427]">
+            <h1 className="md:text-8xl lg:text-9xl text-4xl font-bold text-[#212427]">
               TESTIMONIAL
             </h1>
             <h2 className="absolute inset-0 flex items-center justify-center  lg:text-4xl text-xl font-bold  text-white text-center">

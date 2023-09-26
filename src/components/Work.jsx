@@ -17,7 +17,7 @@ const Work = () => {
           data-aos-duration="800"
           className="relative flex-col text-center"
         >
-          <h1 className="lg:text-9xl md:text-8xl text-2xl font-bold text-[#212427]">
+          <h1 className="lg:text-9xl md:text-8xl text-4xl font-bold text-[#212427]">
             PORTFOLIO
           </h1>
           <h2 className="absolute inset-0 flex items-center justify-center  md:text-4xl text-sm font-bold  text-white text-center">

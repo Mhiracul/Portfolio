@@ -16,7 +16,7 @@ const About = ({ isSidebarExpanded }) => {
             <h1 className="text-4xl lg:text-9xl md:text-8xl font-bold text-[#212427] text-center">
               ABOUT ME
             </h1>
-            <h2 className="absolute inset-0 flex items-center justify-center text-2xl md:text-4xl font-bold  text-white text-center">
+            <h2 className="absolute inset-0 flex items-center justify-center text-sm md:text-4xl font-bold  text-white text-center">
               <span className="border-b-2 border-[#5100EE] pb-1 mb-1 text-center">
                 Know Me More
               </span>
