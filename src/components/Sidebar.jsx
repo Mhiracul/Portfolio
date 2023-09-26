@@ -16,7 +16,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed  w-full py-5 z-[99999]  bg-[#0E1013]    text-gray-300">
+    <div className="fixed  w-full py-3 z-[99999]  bg-[#0E1013]    text-gray-300">
       <div className="px-8 flex items-center justify-between ">
         <div className="hidden md:block">
           <img
@@ -56,10 +56,14 @@ const Navbar = () => {
         </ul>
         <div className="flex items-center justify-between w-full md:hidden z-10">
           <div>
-            <h1 className="font-bold text-[9px]">Miracle Okeke</h1>
+            <img
+              src={mine}
+              alt="Okeke Miracle"
+              className="rounded-full object-cover w-8 h-8 mr-4 "
+            />
           </div>
 
-          <div className="z-10 flex gap-2 w-full md:hidden">
+          <div className="z-10 flex gap-2  md:hidden">
             <a
               href="https://github.com/Mhiracul"
               target="_blank"
