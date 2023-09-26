@@ -70,7 +70,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className="  font-medium hover:text-[#5100EE] cursor-pointer block "
             >
-              <FaGithub size={10} />
+              <FaGithub size={12} />
             </a>
             <a
               href="https://www.linkedin.com/in/okeke-miracle-414685248/"
@@ -78,7 +78,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className="  font-medium hover:text-[#5100EE] cursor-pointer block "
             >
-              <FaLinkedinIn size={10} />
+              <FaLinkedinIn size={12} />
             </a>
             <a
               href="https://twitter.com/Mconcept8"
@@ -86,13 +86,13 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className="font-medium hover:text-[#5100EE] cursor-pointer block "
             >
-              <FaTwitter size={10} />
+              <FaTwitter size={12} />
             </a>
           </div>
 
           {/* Hamburger */}
           <div onClick={handleClick}>
-            {!nav ? <FaBars size={12} /> : <FaTimes size={12} />}
+            {!nav ? <FaBars size={14} /> : <FaTimes size={14} />}
           </div>
         </div>
         {/* Mobile menu */}
