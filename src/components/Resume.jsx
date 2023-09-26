@@ -4,19 +4,27 @@ import "./progress.css";
 
 const Resume = () => {
   return (
-    <div id="resume" className="bg-[#191C1F] py-16 md:px-20 px-6 w-full">
-      <div>
-        <div className="relative flex-col text-center">
-          <h1 className=" text-5xl md:text-9xl font-bold text-[#212427]">
+    <div id="resume" className="bg-[#191C1F]">
+      <div className="py-16 md:px-20 px-6">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          className="relative flex-col text-center"
+        >
+          <h1 className=" text-2xl  lg:text-9xl md:text-8xl font-bold text-[#212427]">
             EXPERIENCE
           </h1>
-          <h2 className="absolute inset-0 flex items-center justify-center  md:text-4xl text-3xl font-bold  text-white text-center">
+          <h2 className="absolute inset-0 flex items-center justify-center  md:text-4xl text-xl font-bold  text-white text-center">
             <span className="border-b-2 border-[#5100EE] pb-1 mb-1 ">
               Skills
             </span>
           </h2>
         </div>
-        <div className="grid md:grid-cols-2 grid-cols-1  gap-10 py-20">
+        <div
+          data-aos="fade-up"
+          data-aos-duration="800"
+          className="grid md:grid-cols-2 grid-cols-1  gap-10 py-20"
+        >
           <div>
             <div className="bg-[#0E1013] rounded-lg mb-10 items-start lg:text-left px-6 py-8 ">
               <div className="container text-left">
@@ -374,7 +382,7 @@ const Resume = () => {
           </div>
           <div className="" style={{ display: "block", margin: "0 auto" }}>
             <button
-              className=" border-2 rounded-full text-[#FFFFFF80] px-4 py-2 bg-transparent w-60 border-[#FFFFFF80] mt-6 outline-none hover:border-[#5100EE] hover:text-white"
+              className=" border-2 rounded-full text-[#FFFFFF80] px-4 py-2 bg-transparent lg:w-60 w-40 border-[#FFFFFF80] mt-6 outline-none hover:border-[#5100EE] hover:text-white"
               onClick={() => {
                 const link = document.createElement("a");
                 link.href = CV;
