@@ -54,8 +54,10 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-        <div className="flex items-center gap-8 w-full md:hidden z-10">
-          <h1 className="font-bold text-[9px]">Miracle Okeke</h1>
+        <div className="flex items-center justify-between w-full md:hidden z-10">
+          <div>
+            <h1 className="font-bold text-[9px]">Miracle Okeke</h1>
+          </div>
 
           <div className="z-10 flex gap-2 w-full md:hidden">
             <a

@@ -43,7 +43,10 @@ const Work = () => {
                     E-Commerce website
                   </p>
 
-                  <a href="https://github.com/Mhiracul/Shopping-cart">
+                  <a
+                    href="https://github.com/Mhiracul/Shopping-cart"
+                    className="hover:text-[#5100EE] text-white"
+                  >
                     <BsGithub size={30} />
                   </a>
                 </div>
@@ -59,11 +62,12 @@ const Work = () => {
                   <p className="text-[#fff] md:text-sm text-center text-xs font-medium">
                     Solar Web App
                   </p>
-                  <div className="flex gap-3">
-                    <a href="https://github.com/Mhiracul/E_SOLARR">
-                      <BsGithub size={30} />
-                    </a>
-                  </div>
+                  <a
+                    href="https://github.com/Mhiracul/E_SOLARR"
+                    className="hover:text-[#5100EE] text-white"
+                  >
+                    <BsGithub size={30} />
+                  </a>
                 </div>
               </div>
             </div>
@@ -80,13 +84,13 @@ const Work = () => {
                   <div className="flex gap-3">
                     <a
                       href="https://transit-f.netlify.app/"
-                      className="hover:text-[#5100EE]"
+                      className="hover:text-[#5100EE] text-white"
                     >
                       <BsEye size={30} />
                     </a>
                     <a
                       href="https://github.com/Mhiracul/TRANS"
-                      className="hover:text-[#5100EE]"
+                      className="hover:text-[#5100EE] text-white"
                     >
                       <BsGithub size={30} />
                     </a>
@@ -107,13 +111,13 @@ const Work = () => {
                   <div className="flex gap-3">
                     <a
                       href="https://finflow.netlify.app/"
-                      className="hover:text-[#5100EE]"
+                      className="hover:text-[#5100EE] text-white"
                     >
                       <BsEye size={30} />
                     </a>
                     <a
                       href="https://github.com/Mhiracul/Banking_Site"
-                      className="hover:text-[#5100EE]"
+                      className="hover:text-[#5100EE] text-white"
                     >
                       <BsGithub size={30} />
                     </a>
@@ -134,7 +138,7 @@ const Work = () => {
                   </p>
                   <a
                     href="https://pendoraventures.com"
-                    className="hover:text-[#5100EE]"
+                    className="hover:text-[#5100EE] text-white"
                   >
                     <BsEye size={30} />
                   </a>
@@ -155,13 +159,13 @@ const Work = () => {
                   <div className="flex gap-3">
                     <a
                       href="https://tri-movies.netlify.app/"
-                      className="hover:text-[#5100EE]"
+                      className="hover:text-[#5100EE] text-white"
                     >
                       <BsEye size={30} />
                     </a>
                     <a
                       href="https://github.com/Mhiracul/ZuriMovie"
-                      className="hover:text-[#5100EE]"
+                      className="hover:text-[#5100EE] text-white"
                     >
                       <BsGithub size={30} />
                     </a>
@@ -182,13 +186,13 @@ const Work = () => {
                   <div className="flex gap-3">
                     <a
                       href="https://tiny-moxie-61180e.netlify.app/"
-                      className="hover:text-[#5100EE]"
+                      className="hover:text-[#5100EE] text-white"
                     >
                       <BsEye size={30} />
                     </a>
                     <a
                       href="https://github.com/Mhiracul/Artessence"
-                      className="hover:text-[#5100EE]"
+                      className="hover:text-[#5100EE] text-white"
                     >
                       <BsGithub size={30} />
                     </a>
